@@ -7,6 +7,8 @@ describe "Working with Regular expressions" do
 
       match.each do |word|
         expect(starts_with_a_vowel?(word)).to be(true)
+        match.each do |word|
+        
       end
     end
 
